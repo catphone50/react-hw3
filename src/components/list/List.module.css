@@ -1,0 +1,49 @@
+.list {
+  background-color: #e6f7ff;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 400px;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.list div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f0f8ff;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  transition: background-color 0.3s ease;
+}
+
+.list div:hover {
+  background-color: #d0e7ff;
+}
+
+.list p {
+  margin: 0;
+  color: #0077b6;
+  font-weight: bold;
+}
+
+.list button {
+  background-color: #ade8f4;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 14px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.list button:hover {
+  background-color: #48cae4;
+}
+
+.list button:active {
+  background-color: #0096c7;
+}
